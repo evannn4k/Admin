@@ -47,12 +47,42 @@
   --radius-3xl: calc(var(--radius) * 2.2);
   --radius-4xl: calc(var(--radius) * 2.6);
 
-  --color-brand: var(--brand);
-}
+  --color-brand-blue: #6faec9;
+  --color-brand-blue-dark: #5494af;
+  --color-brand-blue-light: #89c4df;
 
-:root {
-  --brand: #6faec9;
+  --color-brand-red: #ea4949;
+  --color-brand-red-dark: #cf3333;
+  --color-brand-red-light: #f06c6c;
+
+  --color-brand-green: #7db546;
+  --color-brand-green-dark: #639233;
+  --color-brand-green-light: #94cd5c;
+
+  --color-brand-yellow: #ffb42e;
+  --color-brand-yellow-dark: #e09b1f;
+  --color-brand-yellow-light: #ffc252;
+
+  --color-brand-tisca: #25345b;
+  --color-brand-tisca-dark: #19233f;
+  --color-brand-tisca-light: #34487d;
+
+  --color-brand-100: var(--brand-100);
+  --color-brand-200: var(--brand-200);
+  --color-brand-300: var(--brand-300);
+  --color-brand-400: var(--brand-400);
+  --color-brand-500: var(--brand-500);
+  --color-brand-600: var(--brand-600);
+}
   
+:root {
+  --brand-100: #ffffff;
+  --brand-200: #fafafa;
+  --brand-300: #f5f5f5;
+  --brand-400: #c3c3c3;
+  --brand-500: #7d7d7d;
+  --brand-600: #111111;
+
   --background: oklch(1 0 0);
   --foreground: oklch(0.145 0 0);
   --card: oklch(1 0 0);

@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "projectName": "Wordpress Plugin Update",
+    "startDate": "Nov 4, 2024",
+    "deadline": "Des 25, 2024",
+    "projectDirector": "Athena Cyntia",
+    "level": "High",
+    "status": "Running"
+  },
+  {
+    "id": 2,
+    "projectName": "E-Commerce Mobile App",
+    "startDate": "Jan 10, 2025",
+    "deadline": "Mar 15, 2025",
+    "projectDirector": "Budi Santoso",
+    "level": "High",
+    "status": "Maintenance"
+  },
+  {
+    "id": 3,
+    "projectName": "Company Profile Redesign",
+    "startDate": "Feb 01, 2025",
+    "deadline": "Feb 28, 2025",
+    "projectDirector": "Citra Lestari",
+    "level": "Medium",
+    "status": "Running"
+  },
+  {
+    "id": 4,
+    "projectName": "Payment Gateway Integration",
+    "startDate": "Mar 12, 2025",
+    "deadline": "Apr 20, 2025",
+    "projectDirector": "Dedi Wijaya",
+    "level": "High",
+    "status": "Maintenance"
+  },
+  {
+    "id": 5,
+    "projectName": "SEO Optimization Campaign",
+    "startDate": "May 05, 2025",
+    "deadline": "Jun 30, 2025",
+    "projectDirector": "Eka Saputra",
+    "level": "Low",
+    "status": "To do"
+  },
+  {
+    "id": 6,
+    "projectName": "HRM System Dashboard",
+    "startDate": "Jul 14, 2025",
+    "deadline": "Sep 10, 2025",
+    "projectDirector": "Fanya Amelia",
+    "level": "High",
+    "status": "To do"
+  },
+  {
+    "id": 7,
+    "projectName": "Database Migration to Cloud",
+    "startDate": "Aug 01, 2025",
+    "deadline": "Oct 15, 2025",
+    "projectDirector": "Gilang Ramadhan",
+    "level": "High",
+    "status": "Running"
+  },
+  {
+    "id": 8,
+    "projectName": "UI/UX Audit & Wireframing",
+    "startDate": "Oct 12, 2025",
+    "deadline": "Nov 20, 2025",
+    "projectDirector": "Hana Pertiwi",
+    "level": "Medium",
+    "status": "Running"
+  },
+  {
+    "id": 9,
+    "projectName": "API Performance Tuning",
+    "startDate": "Dec 01, 2025",
+    "deadline": "Jan 15, 2026",
+    "projectDirector": "Indra Kusuma",
+    "level": "High",
+    "status": "Maintenance"
+  },
+  {
+    "id": 10,
+    "projectName": "Marketing Landing Page",
+    "startDate": "Jan 20, 2026",
+    "deadline": "Feb 10, 2026",
+    "projectDirector": "Jessica Putri",
+    "level": "Low",
+    "status": "To do"
+  },
+  {
+    "id": 11,
+    "projectName": "Inventory Tracking Feature",
+    "startDate": "Mar 02, 2026",
+    "deadline": "May 04, 2026",
+    "projectDirector": "Kevin Sanjaya",
+    "level": "Medium",
+    "status": "Running"
+  },
+  {
+    "id": 12,
+    "projectName": "SaaS Multi-tenant Setup",
+    "startDate": "Apr 15, 2026",
+    "deadline": "Jul 30, 2026",
+    "projectDirector": "Lia Natalia",
+    "level": "High",
+    "status": "To do"
+  },
+  {
+    "id": 13,
+    "projectName": "Security Penetration Test",
+    "startDate": "Jun 01, 2026",
+    "deadline": "Jun 25, 2026",
+    "projectDirector": "Muhammad Rizky",
+    "level": "High",
+    "status": "Running"
+  },
+  {
+    "id": 14,
+    "projectName": "Mobile Push Notification",
+    "startDate": "Aug 10, 2026",
+    "deadline": "Sep 05, 2026",
+    "projectDirector": "Nadia Utami",
+    "level": "Medium",
+    "status": "Maintenance"
+  },
+  {
+    "id": 15,
+    "projectName": "Customer Analytics Report",
+    "startDate": "Oct 05, 2026",
+    "deadline": "Nov 30, 2026",
+    "projectDirector": "Oki Setiawan",
+    "level": "Low",
+    "status": "To do"
+  }
+]
