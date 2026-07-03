@@ -25,7 +25,7 @@ export default function AppSidebar() {
           <li>
             <TooltipProvider>
               <Tooltip>
-                <TooltipTrigger asChild>
+                <TooltipTrigger>
                   <Button
                     className={`rounded-full border border-brand-300 shadow shadow-neutral-300 hover:text-white hover:scale-110 h-[42px] w-[42px] ${
                       url.pathname == "/dashboard"
@@ -74,7 +74,7 @@ export default function AppSidebar() {
                 <TooltipTrigger asChild>
                   <Button
                     className={`rounded-full border border-brand-300 shadow shadow-neutral-300 hover:text-white hover:scale-110 h-[42px] w-[42px] ${
-                      url.pathname == "/task"
+                      url.pathname == "/task" || url.pathname == "/task/all"
                         ? "bg-brand-blue text-brand-100 hover:bg-brand-blue-dark"
                         : "bg-brand-300 text-brand-500 hover:bg-brand-blue"
                     }`}

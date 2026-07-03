@@ -1,0 +1,203 @@
+[
+  {
+    "id": 1,
+    "name": "Carla Lalisa",
+    "role": "Copywriter",
+    "projects": 10,
+    "tasks_done": 210,
+    "leave_entitlement": 2,
+    "work_hours_percentage": 45,
+    "is_over_work": false
+  },
+  {
+    "id": 2,
+    "name": "Tony Hank",
+    "role": "AI Developer",
+    "projects": 10,
+    "tasks_done": 120,
+    "leave_entitlement": 0,
+    "work_hours_percentage": 100,
+    "is_over_work": true
+  },
+  {
+    "id": 3,
+    "name": "Eminem",
+    "role": "Content creator",
+    "projects": 10,
+    "tasks_done": 210,
+    "leave_entitlement": 2,
+    "work_hours_percentage": 70,
+    "is_over_work": false
+  },
+  {
+    "id": 4,
+    "name": "Vladen Noer",
+    "role": "Copywriter",
+    "projects": 10,
+    "tasks_done": 210,
+    "leave_entitlement": 2,
+    "work_hours_percentage": 50,
+    "is_over_work": false
+  },
+  {
+    "id": 5,
+    "name": "Darth Snoop",
+    "role": "UX Designer",
+    "projects": 10,
+    "tasks_done": 120,
+    "leave_entitlement": 0,
+    "work_hours_percentage": 120,
+    "is_over_work": true
+  },
+  {
+    "id": 6,
+    "name": "Freyaa",
+    "role": "UI Designer",
+    "projects": 10,
+    "tasks_done": 210,
+    "leave_entitlement": 2,
+    "work_hours_percentage": 46,
+    "is_over_work": false
+  },
+  {
+    "id": 7,
+    "name": "Athena Cyntia",
+    "role": "Frontend Developer",
+    "projects": 8,
+    "tasks_done": 175,
+    "leave_entitlement": 4,
+    "work_hours_percentage": 82,
+    "is_over_work": false
+  },
+  {
+    "id": 8,
+    "name": "Ashlynn Culhane",
+    "role": "Backend Engineer",
+    "projects": 12,
+    "tasks_done": 310,
+    "leave_entitlement": 1,
+    "work_hours_percentage": 115,
+    "is_over_work": true
+  },
+  {
+    "id": 9,
+    "name": "Seon Woo",
+    "role": "Project Manager",
+    "projects": 15,
+    "tasks_done": 450,
+    "leave_entitlement": 5,
+    "work_hours_percentage": 95,
+    "is_over_work": false
+  },
+  {
+    "id": 10,
+    "name": "Fathia",
+    "role": "Quality Assurance",
+    "projects": 7,
+    "tasks_done": 190,
+    "leave_entitlement": 3,
+    "work_hours_percentage": 60,
+    "is_over_work": false
+  },
+  {
+    "id": 11,
+    "name": "Michael De Santa",
+    "role": "Security Specialist",
+    "projects": 5,
+    "tasks_done": 95,
+    "leave_entitlement": 0,
+    "work_hours_percentage": 105,
+    "is_over_work": true
+  },
+  {
+    "id": 12,
+    "name": "Franklin Clinton",
+    "role": "Android Developer",
+    "projects": 11,
+    "tasks_done": 240,
+    "leave_entitlement": 6,
+    "work_hours_percentage": 78,
+    "is_over_work": false
+  },
+  {
+    "id": 13,
+    "name": "Trevor Philips",
+    "role": "DevOps Engineer",
+    "projects": 14,
+    "tasks_done": 380,
+    "leave_entitlement": 0,
+    "work_hours_percentage": 150,
+    "is_over_work": true
+  },
+  {
+    "id": 14,
+    "name": "John Marston",
+    "role": "Data Analyst",
+    "projects": 9,
+    "tasks_done": 200,
+    "leave_entitlement": 4,
+    "work_hours_percentage": 88,
+    "is_over_work": false
+  },
+  {
+    "id": 15,
+    "name": "Arthur Morgan",
+    "role": "Scrum Master",
+    "projects": 10,
+    "tasks_done": 220,
+    "leave_entitlement": 2,
+    "work_hours_percentage": 55,
+    "is_over_work": false
+  },
+  {
+    "id": 16,
+    "name": "Peter Parker",
+    "role": "Social Media Executive",
+    "projects": 6,
+    "tasks_done": 140,
+    "leave_entitlement": 8,
+    "work_hours_percentage": 40,
+    "is_over_work": false
+  },
+  {
+    "id": 17,
+    "name": "Bruce Wayne",
+    "role": "Product Owner",
+    "projects": 20,
+    "tasks_done": 600,
+    "leave_entitlement": 12,
+    "work_hours_percentage": 100,
+    "is_over_work": false
+  },
+  {
+    "id": 18,
+    "name": "Clark Kent",
+    "role": "Journalist Content",
+    "projects": 8,
+    "tasks_done": 180,
+    "leave_entitlement": 3,
+    "work_hours_percentage": 65,
+    "is_over_work": false
+  },
+  {
+    "id": 19,
+    "name": "Diana Prince",
+    "role": "HR Manager",
+    "projects": 4,
+    "tasks_done": 110,
+    "leave_entitlement": 7,
+    "work_hours_percentage": 90,
+    "is_over_work": false
+  },
+  {
+    "id": 20,
+    "name": "Barry Allen",
+    "role": "Fast-Track Support",
+    "projects": 16,
+    "tasks_done": 520,
+    "leave_entitlement": 1,
+    "work_hours_percentage": 130,
+    "is_over_work": true
+  }
+]
+        

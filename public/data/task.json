@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "task_name": "Wordpress plugin update",
+    "project_name": "Website Management Company",
+    "assigned_employees": ["Athena Cyntia", "Evan", "Tiyar", "Michael"],
+    "task_level": "High",
+    "task_status": "To do",
+    "created_at": "2024-11-04"
+  },
+  {
+    "id": 2,
+    "task_name": "Running login view",
+    "project_name": "CafeLink Menu Transactions Via Website",
+    "assigned_employees": ["Ashlynn Culhane"],
+    "task_level": "Low",
+    "task_status": "To do",
+    "created_at": "2024-11-01"
+  },
+  {
+    "id": 3,
+    "task_name": "Create website design",
+    "project_name": "TokoKu Online Marketplace Application",
+    "assigned_employees": ["Erika", "Seon Woo"],
+    "task_level": "Medium",
+    "task_status": "In progress",
+    "created_at": "2024-11-04"
+  },
+  {
+    "id": 4,
+    "task_name": "Human resources data company",
+    "project_name": "Website Management Company",
+    "assigned_employees": ["Fathia"],
+    "task_level": "Low",
+    "task_status": "In progress",
+    "created_at": "2024-11-15"
+  },
+  {
+    "id": 5,
+    "task_name": "Dashboard revision",
+    "project_name": "SiteCraft Websites That Bring Your Business to Life",
+    "assigned_employees": ["Athena Cyntia"],
+    "task_level": "Low",
+    "task_status": "In progress",
+    "created_at": "2024-11-02"
+  },
+  {
+    "id": 6,
+    "task_name": "Website menu view",
+    "project_name": "CafeLink Menu Transactions Via Website",
+    "assigned_employees": ["Erika", "Ashlynn Culhane"],
+    "task_level": "High",
+    "task_status": "Review",
+    "created_at": "2024-11-04"
+  },
+  {
+    "id": 7,
+    "task_name": "Marketplace display menu",
+    "project_name": "Website Management Company",
+    "assigned_employees": ["Seon Woo"],
+    "task_level": "High",
+    "task_status": "Review",
+    "created_at": "2024-11-01"
+  },
+  {
+    "id": 8,
+    "task_name": "Create login page",
+    "project_name": "VirtuSphere Digital Innovation Without Borders",
+    "assigned_employees": ["Fathia"],
+    "task_level": "Medium",
+    "task_status": "Completed",
+    "created_at": "2024-11-04"
+  },
+  {
+    "id": 9,
+    "task_name": "Create flowchart",
+    "project_name": "TokoKu Online Marketplace Application",
+    "assigned_employees": ["Seon Woo"],
+    "task_level": "Medium",
+    "task_status": "Completed",
+    "created_at": "2024-11-01"
+  },
+  {
+    "id": 10,
+    "task_name": "Setup API Gateway & Authentication",
+    "project_name": "VirtuSphere Digital Innovation Without Borders",
+    "assigned_employees": ["Athena Cyntia", "Fathia"],
+    "task_level": "High",
+    "task_status": "In progress",
+    "created_at": "2024-11-10"
+  },
+  {
+    "id": 11,
+    "task_name": "Fix responsiveness issues on checkout",
+    "project_name": "TokoKu Online Marketplace Application",
+    "assigned_employees": ["Ashlynn Culhane"],
+    "task_level": "High",
+    "task_status": "To do",
+    "created_at": "2024-11-12"
+  },
+  {
+    "id": 12,
+    "task_name": "Database backup automation script",
+    "project_name": "Website Management Company",
+    "assigned_employees": ["Seon Woo"],
+    "task_level": "Medium",
+    "task_status": "Completed",
+    "created_at": "2024-11-18"
+  },
+  {
+    "id": 13,
+    "task_name": "Integrate Midtrans payment gateway",
+    "project_name": "TokoKu Online Marketplace Application",
+    "assigned_employees": ["Erika"],
+    "task_level": "High",
+    "task_status": "Review",
+    "created_at": "2024-11-20"
+  },
+  {
+    "id": 14,
+    "task_name": "Draft privacy policy and terms",
+    "project_name": "SiteCraft Websites That Bring Your Business to Life",
+    "assigned_employees": ["Fathia"],
+    "task_level": "Low",
+    "task_status": "To do",
+    "created_at": "2024-11-22"
+  },
+  {
+    "id": 15,
+    "task_name": "Optimize landing page image sizes",
+    "project_name": "SiteCraft Websites That Bring Your Business to Life",
+    "assigned_employees": ["Ashlynn Culhane", "Erika"],
+    "task_level": "Low",
+    "task_status": "Completed",
+    "created_at": "2024-11-25"
+  },
+  {
+    "id": 16,
+    "task_name": "User acceptance testing (UAT) v1.0",
+    "project_name": "CafeLink Menu Transactions Via Website",
+    "assigned_employees": ["Athena Cyntia", "Seon Woo"],
+    "task_level": "High",
+    "task_status": "Review",
+    "created_at": "2024-11-28"
+  },
+  {
+    "id": 17,
+    "task_name": "Fix push notification delay bug",
+    "project_name": "VirtuSphere Digital Innovation Without Borders",
+    "assigned_employees": ["Erika"],
+    "task_level": "High",
+    "task_status": "To do",
+    "created_at": "2024-12-01"
+  },
+  {
+    "id": 18,
+    "task_name": "Configure SSL certificates",
+    "project_name": "Website Management Company",
+    "assigned_employees": ["Ashlynn Culhane"],
+    "task_level": "Medium",
+    "task_status": "Completed",
+    "created_at": "2024-12-03"
+  },
+  {
+    "id": 19,
+    "task_name": "Design notification icons & banners",
+    "project_name": "TokoKu Online Marketplace Application",
+    "assigned_employees": ["Fathia"],
+    "task_level": "Low",
+    "task_status": "In progress",
+    "created_at": "2024-12-05"
+  },
+  {
+    "id": 20,
+    "task_name": "Final deployment to production server",
+    "project_name": "VirtuSphere Digital Innovation Without Borders",
+    "assigned_employees": ["Athena Cyntia", "Seon Woo", "Erika"],
+    "task_level": "High",
+    "task_status": "To do",
+    "created_at": "2024-12-10"
+  }
+]

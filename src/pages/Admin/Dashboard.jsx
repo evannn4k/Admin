@@ -3,11 +3,14 @@ import Filter from "@/components/Dashboard/Filter";
 import Card from "@/components/Dashboard/Card";
 import SideCard from "@/components/Dashboard/SideCard";
 import ChartDashboard from "@/components/Dashboard/ChartDashboard";
+import { Spinner } from "@/components/ui/spinner";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faUsers } from "@fortawesome/free-solid-svg-icons";
 
 export default function Dashboard() {
   const [employes, setEmployes] = useState([]);
   const [filter, setFilter] = useState("ready");
-  const [loading, setLoading] = useState(false);
+  const [loading, setLoading] = useState(true);
 
   const fetchEmploye = async () => {
     setLoading(true);
@@ -17,20 +20,45 @@ export default function Dashboard() {
 
       setEmployes(result);
     } catch (e) {
-      console.log(e);
+      console.error(e);
     } finally {
       setLoading(false);
     }
   };
 
   useEffect(() => {
-    fetchEmploye();
+    setTimeout(() => {
+      fetchEmploye();
+    }, 0);
   }, []);
 
   const render =
     filter != "Complete"
       ? employes.filter((item) => item.availability == filter)
       : employes.filter((item) => item.status == filter);
+
+  const Cards = () => {
+    if (employes.length <= 0) {
+      return (
+        <div className="w-full h-full flex items-center justify-center mt-48">
+          <div className="flex flex-col gap-2 items-center">
+            <div className="text-2xl">
+              <FontAwesomeIcon icon={faUsers} />
+            </div>
+            <span>Not employee yet</span>
+          </div>
+        </div>
+      );
+    } else {
+      return (
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-2">
+          {render.map((employe, i) => {
+            return <Card employe={employe} i={i} filter={filter} key={i} />;
+          })}
+        </div>
+      );
+    }
+  };
 
   return (
     <>
@@ -39,13 +67,13 @@ export default function Dashboard() {
           <div className="col-span-1 md:col-span-3 bg-brand-100 p-4 rounded-2xl border border-zinc-200">
             <div className="flex flex-col gap-4">
               <Filter filter={filter} setFilter={setFilter} />
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-2">
-                {render.map((employe, i) => {
-                  return (
-                    <Card employe={employe} i={i} filter={filter} key={i} />
-                  );
-                })}
-              </div>
+              {!loading ? (
+                <Cards />
+              ) : (
+                <div className="h-full w-full flex justify-center items-center">
+                  <Spinner className="size-8 mt-48" />
+                </div>
+              )}
             </div>
           </div>
           <div className="col-span-1 md:col-span-2">

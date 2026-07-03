@@ -124,13 +124,13 @@ export default function Card({ employe, filter }) {
                     {employe.name}
                   </div>
                   <p className="text-xs leading-base/6 text-brand-500">
-                    {employe.role}
+                    {employe.leave_duration}
                   </p>
                 </div>
               </div>
               <div className="flex flex-col gap-1">
                 <div className="leading-base/6 text-sm font-medium text-black">
-                  Working on {employe.project_name} :
+                  {employe.absence_category}
                 </div>
                 <p className="text-xs leading-base/6 text-brand-500">
                   {employe.task_description}

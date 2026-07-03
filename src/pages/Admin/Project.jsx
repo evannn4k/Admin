@@ -39,11 +39,10 @@ export default function Project() {
     fetchProject();
   }, []);
 
-  console.log(projects);
   return (
-    <div className="p-6 w-full">
-      <div className="rounded-2xl border border-zinc-200 bg-brand-100 w-full">
-        <div className="p-6 flex justify-between">
+      <div className="p-6 w-full">
+        <div className="rounded-2xl border border-zinc-200 bg-brand-100 w-full overflow-hidden">
+        <div className="p-4 flex justify-between">
           <Select>
             <SelectTrigger className="w-full max-w-48">
               <div className="flex gap-2 items-center">
